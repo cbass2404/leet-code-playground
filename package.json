@@ -1,0 +1,29 @@
+{
+  "name": "leet-code-playground",
+  "version": "1.0.0",
+  "description": "Playground for testing leetcode challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbass2404/leet-code-playground.git"
+  },
+  "author": "Cory Bass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbass2404/leet-code-playground/issues"
+  },
+  "homepage": "https://github.com/cbass2404/leet-code-playground#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.45.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.6.1",
+    "prettier": "^3.0.0"
+  }
+}
