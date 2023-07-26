@@ -1,5 +1,4 @@
 # Root Directory
-.vscode
 .git
-coverage
+.vscode
 node_modules
