@@ -8,12 +8,12 @@ const testCases = [
   { input: { nums: [1, 3, 4, 2], target: 6 }, result: [2, 3] },
 ];
 
-describe.skip('Two Sum', () => {
-  testCases.forEach(function (testCase) {
-    return it(`${testCase.input}`, () => {
-      const result = getResult(testCase.input.nums, testCase.input.target);
+describe('Two Sum', () => {
+  testCases.forEach(function ({ input, result }, idx) {
+    return it(`TestCase: ${idx}`, () => {
+      const sum = getResult(input.nums, input.target);
 
-      expect(result).to.deep.equal(testCase.result);
+      expect(sum).to.deep.equal(result);
     });
   });
 });

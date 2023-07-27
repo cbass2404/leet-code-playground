@@ -6,14 +6,23 @@ module.exports = {
     'jest/globals': true,
   },
   extends: 'standard',
-  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
   },
   plugins: ['jest'],
   rules: {
+    indent: 'off',
+    'generator-star-spacing': 'off',
     'comma-dangle': 'off',
     semi: 'off',
     'space-before-function-paren': 'off',
   },
+  overrides: [
+    {
+      files: ['*.test.js'],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
+    },
+  ],
 };

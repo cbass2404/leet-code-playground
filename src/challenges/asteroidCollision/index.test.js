@@ -10,12 +10,12 @@ const testCases = [
   { input: [2, -1, -1, -2], result: [] },
 ];
 
-describe.skip('Asteroid Collision', () => {
-  testCases.forEach(function (testCase) {
-    return it(`${testCase.input}`, () => {
-      const result = getResult(testCase.input);
+describe('Asteroid Collision', () => {
+  testCases.forEach(function ({ input, result }, idx) {
+    return it(`TestCase: ${idx}`, () => {
+      const remainder = getResult(input);
 
-      expect(result).to.deep.equal(testCase.result);
+      expect(remainder).to.deep.equal(result);
     });
   });
 });
