@@ -1,5 +1,3 @@
-// https://leetcode.com/problems/asteroid-collision/
-
 /**
  * @param {number} a
  * @param {number} b

@@ -19,19 +19,16 @@ function twoSum(nums, target) {
 //   const result = [];
 
 //   for (let currentIdx = 0; currentIdx < nums.length; currentIdx++) {
-//     if (result.length) {
-//       break;
-//     }
 //     for (let idx = nums.length; idx > currentIdx; idx--) {
 //       if (nums[currentIdx] + nums[idx] === target) {
 //         result.push(currentIdx);
 //         result.push(idx);
-//         break;
+//         return result;
 //       }
 //     }
 //   }
 
-//   return result;
+//   return [];
 // }
 
 module.exports = twoSum;
