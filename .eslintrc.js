@@ -16,6 +16,7 @@ module.exports = {
     'comma-dangle': 'off',
     semi: 'off',
     'space-before-function-paren': 'off',
+    eqeqeq: 'off',
   },
   overrides: [
     {
