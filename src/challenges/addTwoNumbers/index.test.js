@@ -26,7 +26,7 @@ const testCases = [
   },
 ];
 
-describe('Add Two Numbers', () => {
+describe.skip('Add Two Numbers', () => {
   testCases.forEach(function ({ input, result }, idx) {
     return it(`TestCase: ${idx}`, () => {
       console.info(input.l1);

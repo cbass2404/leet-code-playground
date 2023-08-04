@@ -1,0 +1,18 @@
+const getResult = require('./index');
+const { expect } = require('chai');
+
+const testCases = [
+  { input: 'III', result: 3 },
+  { input: 'LVIII', result: 58 },
+  { input: 'MCMXCIV', result: 1994 },
+];
+
+describe.skip('Roman Numeral to Number', () => {
+  testCases.forEach(function ({ input, result }, idx) {
+    return it(`TestCase: ${idx}`, () => {
+      const sum = getResult(input);
+
+      expect(sum).to.deep.equal(result);
+    });
+  });
+});

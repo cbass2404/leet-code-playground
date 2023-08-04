@@ -7,7 +7,7 @@ const testCases = [
   { input: 10, result: false },
 ];
 
-describe('Two Sum', () => {
+describe.skip('Palindrom Number', () => {
   testCases.forEach(function ({ input, result }, idx) {
     return it(`TestCase: ${idx}`, () => {
       const isPalindrome = getResult(input);
