@@ -7,7 +7,7 @@ const testCases = [
   { input: 'MCMXCIV', result: 1994 },
 ];
 
-describe.skip('Roman Numeral to Number', () => {
+describe('Roman Numeral to Number', () => {
   testCases.forEach(function ({ input, result }, idx) {
     return it(`TestCase: ${idx}`, () => {
       const sum = getResult(input);

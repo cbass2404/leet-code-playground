@@ -1,11 +1,11 @@
 const rosettaStone = {
-  I: 1,
-  V: 5,
-  X: 10,
-  L: 50,
-  C: 100,
-  D: 500,
-  M: 1000,
+  I: { code: 1, value: 1 },
+  V: { code: 2, value: 5 },
+  X: { code: 3, value: 10 },
+  L: { code: 4, value: 50 },
+  C: { code: 5, value: 100 },
+  D: { code: 6, value: 500 },
+  M: { code: 7, value: 1000 },
 };
 
 /**
