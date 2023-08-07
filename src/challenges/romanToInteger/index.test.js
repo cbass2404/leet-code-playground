@@ -5,6 +5,7 @@ const testCases = [
   { input: 'III', result: 3 },
   { input: 'LVIII', result: 58 },
   { input: 'MCMXCIV', result: 1994 },
+  { input: 'CMXICIV', result: 1013 },
 ];
 
 describe('Roman Numeral to Number', () => {
