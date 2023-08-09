@@ -29,7 +29,6 @@ const testCases = [
 describe.skip('Add Two Numbers', () => {
   testCases.forEach(function ({ input, result }, idx) {
     return it(`TestCase: ${idx}`, () => {
-      console.info(input.l1);
       const list = getResult(input.l1, input.l2);
 
       expect(list).to.deep.equal(result);
