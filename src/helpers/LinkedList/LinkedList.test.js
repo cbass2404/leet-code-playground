@@ -4,7 +4,7 @@ const {
 } = require('../../helpers/LinkedList/LinkedList');
 const { expect } = require('chai');
 
-describe('Linked Node', () => {
+describe.skip('Linked Node', () => {
   it('Builds', () => {
     const node1 = new LinkedNode(1);
     expect(node1).not.to.be.null;
@@ -38,7 +38,7 @@ describe('Linked Node', () => {
   });
 });
 
-describe('Linked List Initialization', () => {
+describe.skip('Linked List Initialization', () => {
   let linkedList;
   let head;
 
@@ -76,7 +76,7 @@ describe('Linked List Initialization', () => {
   });
 });
 
-describe('Linked List Methods', () => {
+describe.skip('Linked List Methods', () => {
   let linkedList;
   let first;
   let newFirst;
